@@ -159,7 +159,7 @@ void QStreamDecoder::initialize()
 	else
 	{
 		// Allocate an AVFrame structure
-		mPictureRGB = avcodec_alloc_frame();
+		mPictureRGB = av_frame_alloc();
 	}
 }
 //------------------------------------------
