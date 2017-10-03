@@ -25,10 +25,10 @@
 QTFFMPEGWRAPPER_SOURCE_PATH = ../QTFFmpegWrapper
 
 # Set FFMPEG_LIBRARY_PATH to point to the directory containing the FFmpeg import libraries (if needed - typically for Windows), i.e. the dll.a files
-FFMPEG_LIBRARY_PATH = ../ffmpeg_lib_win32
+#FFMPEG_LIBRARY_PATH = ../ffmpeg_lib_win32
 
 # Set FFMPEG_INCLUDE_PATH to point to the directory containing the FFMPEG includes (if needed - typically for Windows)
-FFMPEG_INCLUDE_PATH = ../QTFFmpegWrapper
+#FFMPEG_INCLUDE_PATH = ../QTFFmpegWrapper
 
 # ##############################################################################
 # Do not modify: FFMPEG default settings

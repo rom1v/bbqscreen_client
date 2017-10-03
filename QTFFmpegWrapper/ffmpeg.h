@@ -19,7 +19,6 @@ THIS SOFTWARE IS PROVIDED BY COPYRIGHT HOLDERS ``AS IS'' AND ANY EXPRESS OR IMPL
 #ifndef _FFMPEG_H
 #define _FFMPEG_H
 
-namespace ffmpeg {
 extern "C" {
 
 /*#define INT64_C
@@ -45,7 +44,6 @@ extern "C" {
 #include "libswresample/swresample.h"
 #include "libavutil/opt.h"
 #include "libavutil/channel_layout.h"
-}
 }
 
 /*

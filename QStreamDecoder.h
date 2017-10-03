@@ -73,13 +73,13 @@ protected:
 	bool mLastRendered;
 
 	bool mIsAudio;
-	ffmpeg::AVCodec* mCodec;
-	ffmpeg::AVCodecContext* mCodecCtx;
-	ffmpeg::SwrContext* mResampleCtx;
-	ffmpeg::AVPacket mPacket;
-	ffmpeg::AVFrame* mPicture;
-	ffmpeg::AVFrame* mPictureRGB;
-	ffmpeg::AVFrame* mAudioFrame;
+	AVCodec* mCodec;
+	AVCodecContext* mCodecCtx;
+	SwrContext* mResampleCtx;
+	AVPacket mPacket;
+	AVFrame* mPicture;
+	AVFrame* mPictureRGB;
+	AVFrame* mAudioFrame;
 	unsigned char* mRGBBuffer;
 	uint8_t* mResampleBuffer;
 
@@ -90,7 +90,7 @@ protected:
 	int mBuffered;
 
 	QImage mLastFrame;
-	ffmpeg::SwsContext* mConvertCtx;
+	SwsContext* mConvertCtx;
 };
 
 
